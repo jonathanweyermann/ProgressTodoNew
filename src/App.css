@@ -1,0 +1,200 @@
+.header-bar {
+  position: fixed;
+  height: 50px;
+
+  left: 65px;
+  right: 0;
+  top: 0;
+  background-color: white;
+  z-index: 1000;
+}
+
+.MuiToolbar-gutters .MuiButtonBase-root.MuiIconButton-root.MuiIconButton-colorInherit {
+  position: fixed;
+  top: -4px;
+  left: 70px;
+  z-index: 1001;
+  border-radius: 1% !important;
+  background-color: white;
+  padding-bottom: 0;
+}
+
+
+.MuiToolbar-regular {
+  min-height: 0px !important;
+}
+
+.MuiTableRow-root:not(.Mui-selected) .MuiTableCell-alignLeft:nth-last-child(-n+3) .MuiInput-underline {
+  visibility: hidden;
+}
+
+
+.wide .MuiToolbar-gutters .MuiButtonBase-root.MuiIconButton-root.MuiIconButton-colorInherit {
+  position: fixed;
+  top: -4px;
+  left: 250px;
+  z-index: 1001;
+}
+
+.MuiToolbar-gutters .MuiFormControl-root .MuiInputBase-root {
+  position: fixed;
+  top: 9px;
+  left: 215px;
+  z-index: 1001;
+}
+.wide .MuiToolbar-gutters .MuiFormControl-root .MuiInputBase-root {
+  position: fixed;
+  top: 9px;
+  left: 395px;
+  z-index: 1001;
+}
+
+.main-pane {
+  margin-top: 50px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.button-padding {
+  margin: 10px;
+}
+
+.button-prettify {
+  padding: 3px 6px !important;
+  font-size: 1em !important;
+}
+
+.button-prettify::before {
+  border-radius: 18px;
+}
+.button-prettify::after {
+  border-radius: 18px;
+}
+
+.unbutton {
+  background-color: inherit;
+  border: none;
+  padding-left: 0px;
+  padding-right: 0px;
+  text-align: left !important;
+}
+
+.unbutton:hover {
+  background-color: #eeeeee;
+  border-radius: 28px;
+  padding: 10px 10px 10px 10px;
+  margin: -9px -9px -9px -10px;
+}
+
+.remove-left-padding {
+  padding-right: 0 !important;
+}
+
+.remove-right-padding {
+  padding-left: 0 !important;
+}
+
+.edit-mode {
+  padding: 0px;
+  margin-top: -3px;
+  margin-bottom: -3px;
+}
+
+.ml-1 {
+  margin-left: 10px;
+}
+
+.mr-1 {
+  margin-right: 10px;
+}
+
+
+.box-shadow {
+  box-shadow: 5px 10px #888888;
+}
+
+.trash-pane {
+  background-color: #eeeeee;
+  min-height: 100vh;
+}
+
+.completed-pane {
+  background-color: #eeeeee;
+  min-height: 100vh;
+}
+
+.current-pane {
+  background-color: #eeeeee;
+  min-height: calc(100vh - 52px);
+}
+
+
+
+.header-font {
+  padding: 20px 30px 0 30px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-size: 21px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.Nav__nav___2Dx2Y {
+    position: fixed;
+    bottom: 0;
+    visibility: hidden;
+    height: 0;
+
+    /* And if you want the div to be full-width: */
+    left: 0;
+    right: 0;
+}
+
+@media screen and (min-width: 450px) {
+  .narrow {
+    padding-left: 64px;
+  }
+  .wide {
+    padding-left: 240px;
+  }
+
+  .done-padding {
+    padding: 30px;
+  }
+
+  .delete-padding {
+    padding: 30px;
+  }
+
+  .current-padding {
+    padding: 30px;
+  }
+
+}

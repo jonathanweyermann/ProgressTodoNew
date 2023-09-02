@@ -1,0 +1,26 @@
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.no-right-padding {
+  padding-right: 0 !important;
+  padding-left: 8px !important;
+}
+
+.bigfont {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.smallfont {
+  font-size: 0.7em;
+}
+
+.float-right {
+  float:;
+}
+
+.align-center {
+  text-align: center;
+}

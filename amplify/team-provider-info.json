@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-progresstodo-dev-02213-authRole",
+      "UnauthRoleArn": "arn:aws:iam::509869771638:role/amplify-progresstodo-dev-02213-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::509869771638:role/amplify-progresstodo-dev-02213-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-progresstodo-dev-02213-deployment",
+      "UnauthRoleName": "amplify-progresstodo-dev-02213-unauthRole",
+      "StackName": "amplify-progresstodo-dev-02213",
+      "StackId": "arn:aws:cloudformation:us-west-2:509869771638:stack/amplify-progresstodo-dev-02213/6914b520-3cc6-11ee-a066-0affbf9c1a45",
+      "AmplifyAppId": "d3bw5tsdytvg5w"
+    },
+    "categories": {
+      "auth": {
+        "progresstodo76a8d72a": {}
+      },
+      "api": {
+        "progresstodo": {}
+      },
+      "hosting": {
+        "S3AndCloudFront": {}
+      }
+    }
+  }
+}

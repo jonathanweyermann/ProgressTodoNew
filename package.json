@@ -1,0 +1,46 @@
+{
+  "name": "ProgressTodoJS",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@date-io/core": "^1.3.6",
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
+    "@fortawesome/react-fontawesome": "^0.1.7",
+    "@material-ui/core": "^4.7.0",
+    "@trendmicro/react-sidenav": "^0.4.5",
+    "aws-amplify": "^1.2.4",
+    "aws-amplify-react": "^2.5.4",
+    "bootstrap": "^4.3.1",
+    "date-fns": "^2.1.0",
+    "jquery": "^3.4.1",
+    "lodash": "^4.17.21",
+    "material-table": "^1.54.1",
+    "popper": "^1.0.1",
+    "popper.js": "^1.14.7",
+    "randomcolor": "^0.5.4",
+    "react": "16.12.0",
+    "react-bootstrap": "^1.0.0-beta.14",
+    "react-dom": "16.12.0",
+    "react-froala-wysiwyg": "^3.0.6",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "styled-components": "^6.0.7",
+    "typescript": "^3.7.2"
+  },
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start && mv ./build ./dist",
+    "build": "react-scripts --openssl-legacy-provider build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

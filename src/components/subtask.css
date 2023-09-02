@@ -1,0 +1,29 @@
+.mb1 {
+  margin-bottom: 14px;
+}
+
+.pb1 {
+  padding-bottom: 14px;
+}
+
+.mt1 {
+  margin-top: 14px;
+}
+
+.pt1 {
+  padding-top: 14px;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
+
+.greyout {
+  background-color: #eee;
+  margin: -12px;
+  padding: 12px;
+}
+
+.reduced-padding-bottom {
+  margin-bottom: -11px !important
+}

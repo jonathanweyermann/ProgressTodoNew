@@ -1,0 +1,10 @@
+@media screen and (max-width: 450px) {
+	nav {
+    visibility: hidden;
+    margin-right: 65px;
+  }
+}
+
+.sidenav---sidenav---_2tBP {
+	position: fixed;
+}

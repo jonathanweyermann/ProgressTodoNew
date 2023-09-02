@@ -1,0 +1,14 @@
+{
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "progresstodojs-20190205222444-authRole",
+            "UnauthRoleArn": "arn:aws:iam::509869771638:role/progresstodojs-20190205222444-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::509869771638:role/progresstodojs-20190205222444-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "progresstodojs-20190205222444-deployment",
+            "UnauthRoleName": "progresstodojs-20190205222444-unauthRole",
+            "StackName": "progresstodojs-20190205222444",
+            "StackId": "arn:aws:cloudformation:us-west-2:509869771638:stack/progresstodojs-20190205222444/839f3910-29cf-11e9-827b-0a65dfef9992"
+        }
+    }
+}
